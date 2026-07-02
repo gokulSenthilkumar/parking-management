@@ -79,13 +79,13 @@ function DashboardView({ setTab }) {
           <button className="hero-btn" onClick={() => setTab('slots')}>
             Find Parking <ArrowRightIcon width={16} height={16} />
           </button>
-          <div className="hero-steps">
+          {/* <div className="hero-steps">
             <span><SlotIcon width={14} height={14} /> Search Location</span>
             <span className="sep">›</span>
             <span><CarIcon width={14} height={14} /> Choose Spot</span>
             <span className="sep">›</span>
             <span><CheckCircleIcon width={14} height={14} /> Book &amp; Park</span>
-          </div>
+          </div> */}
         </div>
       </div>
 
